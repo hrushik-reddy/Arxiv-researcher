@@ -1,27 +1,20 @@
-# Arxiv-researcher
-> 🏆
-> Arxiv Researcher won the MLH hackathon: https://www.linkedin.com/feed/update/urn:li:activity:7138579395396468740/
+Things i wanna cover through by building this project
 
-Arxiv-researcher helps you to understand and gain insights from Arxiv research papers faster by allowing you to chat with the research paper.
-Under the hood, the Arxiv paper gets downloaded and the text is extracted from the PDF and is converted into embeddings which are then stored in a vector database. When the user asks a question, the vector database retrieves relevant passages and then GPT summarises them, resulting in a coherent answer.
-
-# Get Started
-0. Get your openai api key: https://platform.openai.com/api-keys
-   
-1. clone the repo
-```python
-git clone https://github.com/hrushik98/Arxiv-researcher
-```
-
-2. Install the requirements
-```python
-pip install -r requirements.txt
-```
-
-3. Run the app
-```python
-streamlit run app.py
-```
-
-# Demo
-[Watch the demo on youtube](https://www.youtube.com/watch?v=j7s0k7zqTXM&feature=youtu.be)
+1. multithreading, multiprocessing, parallel processing, GIL, asyncio, await, generator, yield
+2. streaming of responses from backend to frontend using SSE
+3. Explore SSE, websockets, webhooks, long polling, shortpolling
+4. Explore how to handle authentication between backend and the frontend
+5. Explore the usage of langchain, langgraph, llamaindex, openrouter, litellm
+6. Explore how to use kafka, rabbitmq, celery, redis, mongodb, postgres -- use all async variations in this -- all from google cloud
+7. Explore how to use machine learning, deep learning in any part of the pipeline
+8. Explore how to use opentelemetry for tracking number of tokens used, numbr of api calls made
+9. implement rate limiting from scratch using decorators
+10. implement logger from scratch using decorators
+11. Use ORM in python for handling DB operations
+12. understand the difference between thread vs process
+13. static method, abstract method, etc
+14. __init__, __call__
+15. implement production grade RAG approach
+16. local, Global variables
+17. Use google ADK and understand google ADK in depth.
+18. 
